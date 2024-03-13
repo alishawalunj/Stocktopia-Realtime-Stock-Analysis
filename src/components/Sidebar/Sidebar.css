@@ -1,0 +1,59 @@
+/* src/components/Sidebar/styles.css */
+.sidebar {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #555;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .sidebar ul li.active {
+    background-color: #555;
+  }
+  
+  .sidebar ul li.active a {
+    color: #fff;
+  }
+  
+  .sidebar ul li.active a:hover {
+    text-decoration: underline;
+  }
+  
+  .sidebar ul li.active:hover {
+    background-color: #333;
+  }
+  
+  .sidebar ul li.active:hover a {
+    color: #fff;
+  }
+  
+  .sidebar ul li.active:hover a:hover {
+    text-decoration: underline;
+  }
+ 
+  
